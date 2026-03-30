@@ -12,6 +12,7 @@ body {
     height: 100px;
     width: 100px;
     transform: rotate(-45 deg) scale(1);
+    animation: pulsar 1s ease infinite:
 }
 
 .pulsante::after {
