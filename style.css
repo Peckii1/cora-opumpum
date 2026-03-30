@@ -13,3 +13,25 @@ body {
     width: 100px;
     transform: rotate(-45 deg) scale(1);
 }
+
+.pulsante::after {
+    background: #c0b6f1;
+    content: '';
+    postion: absolute;
+    top: -50%;
+    left: 0;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.pulsante::before {
+    background: #c0b6f1;
+    content: '';
+    postion: absolute;
+    top: 0;
+    right: -50%;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
