@@ -1,0 +1,15 @@
+body {
+    display: flex;
+    align-itens: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.pulsante {
+    background: #c0b6f1;
+    position: relative;
+    height: 100px;
+    width: 100px;
+    transform: rotate(-45 deg) scale(1);
+}
