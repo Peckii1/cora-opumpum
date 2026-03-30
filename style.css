@@ -35,3 +35,12 @@ body {
     width: 100px;
     border-radius: 50%;
 }
+
+@keyframes pulsar{
+    0%{
+        transform: rotate(-45deg) scale(1);
+    }
+    100%{
+        transform: rotate(-45deg) scale(1.5);
+    }
+}
