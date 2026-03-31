@@ -1,6 +1,6 @@
 body {
     display: flex;
-    align-itens: center;
+    align-items: center;
     justify-content: center;
     min-height: 100vh;
     margin: 0;
@@ -11,14 +11,14 @@ body {
     position: relative;
     height: 100px;
     width: 100px;
-    transform: rotate(-45 deg) scale(1);
-    animation: pulsar 1s ease infinite:
+    transform: rotate(-45deg) scale(1);
+    animation: pulsar 1s infinite alternate;
 }
 
 .pulsante::after {
     background: #c0b6f1;
     content: '';
-    postion: absolute;
+    position: absolute;
     top: -50%;
     left: 0;
     height: 100px;
@@ -29,7 +29,7 @@ body {
 .pulsante::before {
     background: #c0b6f1;
     content: '';
-    postion: absolute;
+    position: absolute;
     top: 0;
     right: -50%;
     height: 100px;
@@ -41,10 +41,7 @@ body {
     0%{
         transform: rotate(-45deg) scale(1);
     }
-    50%{
-        transform: rotate(-45deg) scale(1.5);
-    }
     100%{
-        transform: rotate(-45deg) scale(1);
+        transform: rotate(-45deg) scale(1.5);
     }
 }
